@@ -98,7 +98,8 @@ module.exports = function(grunt) {
 					files: {
 						'dist/assets/<%= pkg.name %>.css': 'src/scss/<%= pkg.name %>.scss',
 						'dist/assets/owl.theme.default.css': 'src/scss/owl.theme.default.scss',
-						'dist/assets/owl.theme.green.css': 'src/scss/owl.theme.green.scss'
+						'dist/assets/owl.theme.green.css': 'src/scss/owl.theme.green.scss',
+						'dist/assets/owl.theme.voodoo.css': 'src/scss/owl.theme.voodoo.scss'
 					}
 				}
 			},
@@ -111,7 +112,8 @@ module.exports = function(grunt) {
 					files: {
 						'dist/assets/<%= pkg.name %>.css': 'dist/assets/<%= pkg.name %>.css',
 						'dist/assets/owl.theme.default.css': 'dist/assets/owl.theme.default.css',
-						'dist/assets/owl.theme.green.css': 'dist/assets/owl.theme.green.css'
+						'dist/assets/owl.theme.green.css': 'dist/assets/owl.theme.green.css',
+						'dist/assets/owl.theme.voodoo.css': 'dist/assets/owl.theme.voodoo.css'
 					}
 				}
 			},
@@ -129,7 +131,8 @@ module.exports = function(grunt) {
 					files: {
 						'dist/assets/<%= pkg.name %>.min.css': 'dist/assets/<%= pkg.name %>.css',
 						'dist/assets/owl.theme.default.min.css': 'dist/assets/owl.theme.default.css',
-						'dist/assets/owl.theme.green.min.css': 'dist/assets/owl.theme.green.css'
+						'dist/assets/owl.theme.green.min.css': 'dist/assets/owl.theme.green.css',
+						'dist/assets/owl.theme.voodoo.min.css': 'dist/assets/owl.theme.voodoo.css'
 					}
 				}
 			},
